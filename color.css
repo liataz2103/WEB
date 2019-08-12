@@ -1,0 +1,76 @@
+body{
+	background-color: #232323;
+	margin: 0;
+	font-family: "Montserrat", Avenir";
+}
+
+h1{
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	background: steelblue;
+	margin: 0;
+	font-weight: normal;
+	line-height: 1.1;
+	padding: 20px;
+}
+
+/* each square div takes 30% of the container that icludes them*/
+.square {
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	padding-bottom: 30%;
+	margin: 1.66%;
+	border-radius: 15%;
+	transition: background 0.6s;
+}
+
+#container{
+	width: 600px;
+	/*when I use 0 margin on top and buttom and auto auto on the left and right it will centralize the element*/
+	margin: 20px auto;
+}
+
+
+#stripeOptions{
+	background: white;
+	height:	30px;
+	color: black;
+	text-align: center;
+}
+
+.selected{
+	color: white;
+	background: steelblue;
+}
+
+#displayColorStripe{
+	font-size: 200%;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: uppercase;
+	height: 100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: : 1px;
+	font-size: inherit;
+	transition: all 0.3s;
+	outline: none
+}
+
+#message {
+	/*the message block will create space since it will be 20% from the stripe*/
+	display: inline-block;
+	width: 20%;
+}
+
+button:hover{
+	color: white;
+	background: steelblue
+
+}
